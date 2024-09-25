@@ -1,0 +1,20 @@
+query getStrapiData {
+  works {
+    orderId
+    companyTitle
+    slug
+    industry
+    media
+    roles
+    project {
+      id
+      projectTitle
+      projectSummary
+      projectImg {
+        url
+      }
+      designTools
+      codingTools
+    }
+  }
+}

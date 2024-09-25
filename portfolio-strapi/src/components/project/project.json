@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_project_projects",
+  "info": {
+    "displayName": "project",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "projectTitle": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "projectSummary": {
+      "type": "text"
+    },
+    "designTools": {
+      "type": "richtext"
+    },
+    "codingTools": {
+      "type": "richtext"
+    },
+    "projectImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}
